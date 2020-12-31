@@ -5,4 +5,5 @@ from snippets.models import Snippet, LANGUAGE_CHOICES, STYLE_CHOICES
 class SnippetSerializer(serializers.ModelSerializer):
     class Meta:
         model = Snippet
+        # 'id' is automatically generated from Snippet().pk?
         fields = ['id', 'title', 'code', 'linenos', 'language', 'style']
