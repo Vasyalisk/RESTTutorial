@@ -3,3 +3,4 @@ psycopg2-binary==2.8.5
 djangorestframework==3.12.2
 pygments==2.7.3
 httpie==2.3.0
+djangorestframework-simplejwt==4.6.0
